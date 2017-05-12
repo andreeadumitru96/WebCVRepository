@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <personalInformation>
+	<firstName>
+	    Andreea
+	</firstName>
+	<lastName>
+	    Dumitru
+	</lastName>
+	<address>
+	    Aley Doicesti, no 4
+	</address>
+	<phoneNumber>
+	    0764 749 404
+	</phoneNumber>
+	<email>
+	    dumitru_andreea96@yahoo.com
+	</email>
+	<sex>
+	    Female
+	</sex>
+	<dateOfBirth>
+	    9th April 1996
+	</dateOfBirth>
+	<nationality>
+	    Romanian
+	</nationality>
+    </personalInformation>
+    <jobAppliedFor>
+	Modern Web Developer Internship
+    </jobAppliedFor>
+    <educationAndTraining>
+        <highSchool>
+  	    <name>
+		Gratuated from "Carol I" National College - Mathematics Informatics
+	    </name>
+	    <timeInterval>
+		June 2015
+	    </timeInterval>
+	</highSchool>
+	<university>
+	    <name>
+		 2nd year student - Faculty of Automatics, Computers and Electronics - Computer Science
+	    </name>
+	    <timeInterval>
+		2015 - Present
+	    </timeInterval>
+	   
+	</university>
+	<training1>
+	    <name>
+		MedTech Workshop by EESTEC Munich, Germany
+	    </name>
+	    <timeInterval>
+		3-10th December 2016
+	    </timeInterval>
+	</training1>
+	<training2>
+	    <name>
+		Hella Embedded Programming Workshop
+	    </name>
+	    <timeInterval>
+		May 2017 - Present
+	    </timeInterval>
+	</training2>
+    </educationAndTraining>
+    <languages>
+	    <secondLanguage>
+		<name>
+		    English
+		</name>
+		<understandingLevel>
+		    <listeningLevel>
+			B2
+		    </listeningLevel>
+		    <readingLevel>
+			B2
+		    </readingLevel>
+		</understandingLevel>
+
+		<speakingLevel>
+		    <spokenInteractionLevel>
+			B2
+		    </spokenInteractionLevel>
+		    <spokenProductionLevel>
+			B2
+		    </spokenProductionLevel>
+		</speakingLevel>
+		<writingLevel>
+		    B2
+		</writingLevel>
+	    </secondLanguage>
+	    <thirdLanguage>
+		<name>
+		    French*
+		</name>
+		<reference>
+		    *French Language Certificate - Diplome d'etudes en langue francaise DELF
+		</reference>
+		<understandingLevel>
+		    <listeningLevel>
+			B2
+		    </listeningLevel>
+		    <readingLevel>
+			B2
+		    </readingLevel>
+		</understandingLevel>
+
+		<speakingLevel>
+		    <spokenInteractionLevel>
+			B2
+		    </spokenInteractionLevel>
+		    <spokenProductionLevel>
+			B2
+		    </spokenProductionLevel>
+		</speakingLevel>
+		<writingLevel>
+		    B2
+		</writingLevel>
+	    </thirdLanguage>
+    </languages>
+
+    <communicationSkills>
+	<skill1>
+            Social skills
+	</skill1>
+	<skill2>
+	    Adaptability
+	</skill2>
+
+	<skill3>
+	   Capacity to work in a team 
+	</skill3>
+
+	<skill4>
+	   Ability of in-depth information assimilation 
+	</skill4>
+	
+	<skill5>
+	   Self-driven
+	</skill5>
+
+	<skill6>
+	   Logical thinking
+	</skill6>
+	
+	<skill7>
+	    Open to share new ideas
+	</skill7>
+    </communicationSkills>
+
+    <digitalCompetence>
+	European Computer Driving Licence - ECDL
+    </digitalCompetence>
+    <knowledge>
+	<idea1>
+	    Good knowledge of web development - HTML5, CSS3, JavaScript and jQuerry     
+	</idea1>
+
+	<idea2>
+	    A little experience with nodeJS, mongoDB and Mustache Template which I used in a personal application 
+	</idea2>
+
+	<idea3>
+	    Basic knowledge in Object Oriented Programming and Design - C++, Java and Python
+	</idea3>
+
+	<idea4>
+	    The baccalaureate exam was sustained in Informatics where 9,80 grade was obtained
+	</idea4>
+            
+	<idea5>
+	    GIT knowledge
+	</idea5>
+
+	<idea6>
+	    High school informatics certificate
+	</idea6>
+	
+	
+    </knowledge>
+
+    <references>
+	https://github.com/andreeadumitru96
+    </references>
+    		
+</doc>

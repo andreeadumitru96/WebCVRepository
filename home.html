@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel=stylesheet  href=style.css />
+    <meta charset="UTF-8">
+    <title>Andreea Dumitru - Curriculum Vitae</title>
+</head>
+<body id="mainContainer">
+
+
+    <div id="fileUploaderContainer">
+        <div class="file-upload-block">
+            <input type="file" id="xmlUploadedFile" class="file-upload-input" />
+            <label for="xmlUploadedFile">Upload XML file here...</label>
+        </div>
+    </div>
+
+
+    <div class="container" id="container">
+    </div>
+
+
+    <script src="libs/jquery-3.2.1.js"></script>
+    <script src="style.css" type="stylesheet"></script>
+    <script src="namespaces.js"></script>
+    <script src="libs/mustache/mustache.js-master/mustache.js"></script>
+    <script src="index.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+           var app = new webCV.MainApplication();
+        });
+    </script>
+</body>
+</html>

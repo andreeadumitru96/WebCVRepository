@@ -1,0 +1,189 @@
+
+<div id="cv" class="instaFade">
+    <div class="mainDetails">
+
+        <div id="name">
+            <h1 class="quickFade delayTwo">{{data.personalInformation.firstName}} {{data.personalInformation.lastName}}</h1>
+        </div>
+
+        <div id="contactDetails" class="quickFade delayFour">
+            <ul>
+                <li>Email:{{data.personalInformation.email}}</li>
+                <li>Phone number:{{data.personalInformation.phoneNumber}}</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div id="mainInformations" class="quickFade delayFive">
+        <section>
+            <article>
+                <div class="sectionTitle">
+                    <h1>Personal Informations</h1>
+                </div>
+
+                <div class="sectionContent">
+                    <p> Address: {{data.personalInformation.address}}</p>
+                    <p> Sex: {{data.personalInformation.sex}}</p>
+                    <p> Date of birth: {{data.personalInformation.dateOfBirth}}</p>
+                    <p> Nationality: {{data.personalInformation.nationality}}</p>
+
+                </div>
+            </article>
+            <div class="clear"></div>
+        </section>
+
+        <section>
+            <article>
+                <div class="sectionTitle">
+                    <h1>Job Applied For  </h1>
+                </div>
+
+
+                <div class="sectionContent">
+                    <h2> {{data.jobAppliedFor}} </h2>
+                </div>
+            </article>
+            <div class="clear"></div>
+        </section>
+
+        <section>
+
+            <div class="sectionTitle">
+                <h1>Education and Training</h1>
+            </div>
+            <div class="sectionContent">
+                <article>
+                    <h2>{{data.educationAndTraining.training2.name}}</h2>
+                    <p class="subDetails">{{data.educationAndTraining.training2.timeInterval}}</p>
+                </article>
+
+                <article>
+                    <h2>{{data.educationAndTraining.university.name}}</h2>
+                    <p class="subDetails">{{data.educationAndTraining.university.timeInterval}}</p>
+
+                </article>
+
+                <article>
+                    <h2>{{data.educationAndTraining.training1.name}}</h2>
+                    <p class="subDetails">{{data.educationAndTraining.training1.timeInterval}}</p>
+                </article>
+
+                <article>
+                    <h2>{{data.educationAndTraining.highSchool.name}}</h2>
+                    <p class="subDetails">{{data.educationAndTraining.highSchool.timeInterval}}</p>
+                </article>
+
+            </div>
+            <div class="clear"></div>
+        </section>
+
+
+        <section>
+            <div class="sectionTitle">
+                <h1>Languages</h1>
+                <br>
+                <br>
+                <br>
+                <div class="foreignLanguageStyle">{{data.languages.secondLanguage.name}}</div>
+                <br>
+                <div class="foreignLanguageStyle">{{data.languages.thirdLanguage.name}}</div>
+
+            </div>
+
+            <div class="sectionContent">
+                <table style="width:100%">
+                    <tr>
+                        <th colspan="2">Understanding</th>
+                        <th colspan="2">Speaking</th>
+                        <th  rowspan="2" class ="writingModification">Writing</th>
+                    </tr>
+                    <tr>
+                        <td> Listening</td>
+                        <td> Reading</td>
+                        <td> Spoken interaction</td>
+                        <td> Spoken production</td>
+                    </tr>
+
+                    <tr>
+                        <td>{{data.languages.secondLanguage.understandingLevel.listeningLevel}}</td>
+                        <td>{{data.languages.secondLanguage.understandingLevel.readingLevel}}</td>
+                        <td>{{data.languages.secondLanguage.speakingLevel.spokenInteractionLevel}}</td>
+                        <td>{{data.languages.secondLanguage.speakingLevel.spokenProductionLevel}}</td>
+                        <td> {{data.languages.secondLanguage.writingLevel}}  </td>
+                    </tr>
+                    <tr>
+                        <td>{{data.languages.thirdLanguage.understandingLevel.listeningLevel}}</td>
+                        <td>{{data.languages.thirdLanguage.understandingLevel.readingLevel}}</td>
+                        <td>{{data.languages.thirdLanguage.speakingLevel.spokenInteractionLevel}}</td>
+                        <td>{{data.languages.thirdLanguage.speakingLevel.spokenProductionLevel}} </td>
+                        <td   rowspan="2"> {{data.languages.thirdLanguage.writingLevel}}  </td>
+                    </tr>
+                </table>
+                <div class="languageReference">{{data.languages.thirdLanguage.reference}}</div>
+            </div>
+            <div class="clear"></div>
+        </section>
+
+        <section>
+            <div class="sectionTitle">
+                <h1>Digital Competence</h1>
+            </div>
+            <br>
+            <div class="sectionContent">
+                {{data.digitalCompetence}}
+            </div>
+            <div class="clear"></div>
+        </section>
+
+        <section>
+            <div class="sectionTitle">
+                <h1>Knowledge</h1>
+            </div>
+            <div class="sectionContent">
+                <ul type="square">
+                    <li> {{data.knowledge.idea1}}</li>
+                    <li>{{data.knowledge.idea2}}</li>
+                    <li>{{data.knowledge.idea3}}</li>
+                    <li>{{data.knowledge.idea4}}</li>
+                    <li>{{data.knowledge.idea5}}</li>
+                    <li>{{data.knowledge.idea6}}</li>
+
+                </ul>
+
+            </div>
+            <div class="clear"></div>
+        </section>
+
+        <section>
+            <div class="sectionTitle">
+                <h1>Communication Skills</h1>
+
+            </div>
+            <div class="sectionContent">
+                <ul type="square">
+                    <li>{{data.communicationSkills.skill1}}</li>
+                    <li>{{data.communicationSkills.skill2}}</li>
+                    <li>{{data.communicationSkills.skill3}}</li>
+                    <li>{{data.communicationSkills.skill4}}</li>
+                    <li>{{data.communicationSkills.skill5}}</li>
+                    <li>{{data.communicationSkills.skill6}}</li>
+
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+        </section>
+
+        <section>
+            <div class="sectionTitle">
+                <h1>References</h1>
+            </div>
+            <div class="sectionContent">
+                <div>{{data.references}}</div>
+
+            </div>
+        </section>
+
+    </div>
+</div>
